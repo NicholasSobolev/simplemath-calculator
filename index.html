@@ -4,9 +4,53 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="/dist/style.css">
+    <title>CalculatorApp</title>
 </head>
 <body>
-    
+    <div class="top-container">
+        <a href="/">
+            <h1 class="top-container__heading">Calculator</h1>
+        </a>
+        <h3 class="top-container__subheading">Built by Nicholas S</h3>
+    </div>
+    <div class="main-container">
+        <table class="main-container__calculator">
+            <tr>
+                <td class="main-container__calculator__displaybox"colspan="3"><input type="text" readonly></td>
+                <td><input type="button" value="C"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="1"></td>
+                <td><input type="button" value="2"></td>
+                <td><input type="button" value="3"></td>
+                <td><input type="button" value="/"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="4"></td>
+                <td><input type="button" value="5"></td>
+                <td><input type="button" value="6"></td>
+                <td><input type="button" value="-"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="7"></td>
+                <td><input type="button" value="8"></td>
+                <td><input type="button" value="9"></td>
+                <td><input type="button" value="+"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="."></td>
+                <td><input type="button" value="0"></td>
+                <td><input type="button" value="="></td>
+                <td><input type="button" value="*"></td>
+            </tr>
+        </table>
+
+
+    </div>
+
+
+
+    <script src="/js/script.js"></script>
 </body>
 </html>
